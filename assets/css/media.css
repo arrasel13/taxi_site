@@ -1,0 +1,454 @@
+/*Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) {
+	/* Header start */
+	.logo img {
+		display: none;
+	}
+	.menu ul li {
+		text-align: right;
+		margin-top: 8px;
+	}
+	.menu ul li:not(:last-child){
+		margin-right: 0 !important;
+	}
+
+	/* Banner start */
+	.banner {
+		padding: 50px 0;
+	}
+	.banner_left_content {
+		margin-left: 0;
+	}
+	.banner_left_text {
+		margin: 0px 0 10px;
+		font-size: 26px;
+	}
+	.selectPackage {
+		padding: 10px;
+	}
+	input[type=radio] + label {
+		margin: 5px 0 0;
+		width: 100px;
+	}
+	input[type=radio]:checked + label {
+		box-shadow: none;
+	}
+	.btnGetTaxi {
+		margin: 10px 0;
+	}
+	.getTaxiBtn {
+		padding: 12px 36px;
+	}
+
+	/* Quick Info start */
+	.quickinfo {
+		padding: 30px 0;
+	}
+	.contact_number .contact_icon, .contact_social_media .contact_social_media_icon, .contact_location .contact_location_icon {
+		margin-right: 10px;
+		padding: 0;
+		width: 30px;
+		height: 30px;
+	}
+	.contact_number .contact_icon i, .contact_social_media .contact_social_media_icon i, .contact_location .contact_location_icon {
+		font-size: 16px;
+	}
+	.contact_number .contact_text, .contact_social_media .contact_social_media_text, .contact_location .contact_location_text {
+		font-size: 18px;
+	}
+	.contact_number, .contact_social_media, .contact_location {
+		margin: 5px;
+		text-align: left;
+	}
+	/* About us start */
+	.aboutus {
+		padding: 50px 0;
+	}
+	.aboutus_right {
+		padding: 20px;
+		text-align: center;
+		background-color: #000000a1;
+	}
+	.aboutus_right_title {
+		font-size: 28px;
+		color: #ffffff;
+	}
+	.aboutus_right_subtitle {
+		margin: 15px 0;
+		font-size: 16px;
+	}
+	.aboutus_right_subtitle, .aboutus_right_para {
+		color: #dfd9d9;
+		line-height: 25px;
+	}
+	
+	/* Special Features start */
+	.special_features{
+		padding: 50px 0;
+	}
+	.feature_sec_title {
+		margin-bottom: 10px;
+		font-size: 28px;
+	}
+
+	/* Call to action start */
+	.calltoaction{
+		padding: 50px 0;
+	}
+	.calltoaction_title {
+		margin-bottom: 20px;
+		font-size: 18px;
+	}
+	.contactBtn {
+		padding: 8px 16px;
+	}
+	.calltoaction_left {
+		margin-top: 0;
+		text-align: center;
+	}
+
+	/* Services start */
+	.services{
+		padding: 50px 0;
+	}
+	.service_sec_title{
+		margin-bottom: 10px;
+    	font-size: 28px;
+	}
+
+	/* Testimonial start */
+	.testimonial{
+		padding: 50px 0;
+	}
+	.testi_sec_title{
+		margin-bottom: 25px;
+    	font-size: 28px;
+	}
+	.carousel-caption {
+		padding: 40px 20px;
+	}
+	.carousel-caption img {
+		margin-top: 1.05rem;
+	}
+	#image-caption {
+		margin-bottom: 0.5rem;
+	}
+	.carousel-indicators [data-bs-target] {
+		width: 12px;
+		height: 12px;
+	}
+
+	/* Contact Us start */
+	.contactus{
+		padding: 50px 0;
+	}
+	.contactus_sec_title{
+		margin-bottom: 20px;
+    	font-size: 28px;
+	}
+	.contactUsBtn_submit{
+		padding: 12px 24px;
+	}
+
+	/* Footer Top start */
+	.top_footer_section{
+		padding: 25px 0 50px;
+	}
+	.top_footer_title {
+		margin-bottom: 20px;
+		font-size: 26px;
+	}
+	.top_footer_para {
+		margin-bottom: 20px;
+	}
+	.explore_left ul, .explore_right ul {
+		margin: 0;
+		padding-right: 10px;
+	}
+
+	/* Footer start */
+	.footer_right .go-top {
+		margin: -39px 0 0 0;
+	}
+	.footer_right .go-top:before {
+		top: 10px;
+		width: 49px;
+		height: 59px;
+	}
+	
+}
+
+/*Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+	/* Header start */
+	.menu ul li {
+		text-align: right;
+		margin-top: 10px;
+	}
+	.menu ul li:not(:last-child){
+		margin-right: 0 !important;
+	}
+	/* Banner start */
+	.banner {
+		padding: 60px 0;
+	}
+	.banner_left_content {
+		margin-left: 0;
+	}
+	.selectPackage {
+		padding: 10px 0;
+	}
+	input[type=radio] + label {
+		margin-right: 0;
+		padding: 8px 5px;
+	}
+	/* Quick Info start */
+	.quickinfo {
+		padding: 30px 0;
+	}
+	.contact_number, .contact_social_media {
+		margin-bottom: 20px;
+	}
+	/* About us start */
+	.aboutus {
+		padding: 60px 0;
+	}
+	.aboutus_right {
+		background-color: #000000a1;
+		padding: 30px;
+	}
+	.aboutus_right_title {
+		font-size: 32px;
+		color: #ffffff;
+	}
+	.aboutus_right_subtitle {
+		font-size: 18px;
+	}
+	.aboutus_right_subtitle, .aboutus_right_para {
+		color: #dfd9d9;
+	}
+	
+	/* Special Features start */
+	.special_features{
+		padding: 60px 0;
+	}
+	.feature_title {
+		margin: 20px 0;
+	}
+	.feature_sec_title {
+		margin-bottom: 20px;
+		font-size: 32px;
+	}
+
+	/* Call to action start */
+	.calltoaction{
+		padding: 40px 0;
+	}
+	.calltoaction_title {
+		margin-bottom: 20px;
+		font-size: 18px;
+	}
+	.contactBtn {
+		padding: 8px 24px;
+	}
+
+	/* Call to action start */
+	.calltoaction{
+		padding: 60px 0;
+	}
+	.calltoaction_title {
+		margin-bottom: 20px;
+		font-size: 18px;
+	}
+	.contactBtn {
+		padding: 8px 20px;
+	}
+	.calltoaction_left {
+		margin-top: 0;
+		text-align: center;
+	}
+
+	/* Services start */
+	.services{
+		padding: 60px 0;
+	}
+	.service_sec_title{
+		margin-bottom: 20px;
+    	font-size: 32px;
+	}
+
+	/* Testimonial start */
+	.testimonial{
+		padding: 60px 0;
+	}
+	.testi_sec_title{
+		margin-bottom: 20px;
+    	font-size: 32px;
+	}
+
+	/* Testimonial start */
+	.testimonial{
+		padding: 60px 0;
+	}
+	.testi_sec_title{
+		margin-bottom: 25px;
+    	font-size: 32px;
+	}
+	.carousel-caption {
+		padding: 40px 20px;
+	}
+	.carousel-caption img {
+		margin-top: 1.05rem;
+	}
+	#image-caption {
+		margin-bottom: 0.5rem;
+	}
+	.carousel-indicators [data-bs-target] {
+		width: 12px;
+		height: 12px;
+	}
+
+	/* Contact Us start */
+	.contactus{
+		padding: 60px 0;
+	}
+	.contactus_sec_title{
+		margin-bottom: 20px;
+    	font-size: 32px;
+	}
+	.contactUsBtn_submit{
+		padding: 12px 24px;
+	}
+
+	/* Footer Top start */
+	.top_footer_section{
+		padding: 60px 0;
+	}
+	.top_footer_title {
+		margin-bottom: 20px;
+		font-size: 28px;
+	}
+	.top_footer_para {
+		margin-bottom: 20px;
+	}
+	.explore_left ul, .explore_right ul {
+		margin: 0;
+		padding-right: 5px;
+	}
+
+	/* Footer start */
+	.footer_right .go-top {
+		margin: -39px 0 0 0;
+	}
+}
+
+/*Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+	/* Header start */
+	.menu ul li {
+		text-align: right;
+		margin-top: 10px;
+	}
+	.menu ul li:not(:last-child){
+		margin-right: 0 !important;
+	}
+
+	/* Banner start */
+	.banner {
+		padding: 80px 0;
+	}
+	.banner_left_content {
+		margin-left: 0;
+	}
+	/* Quick Info start */
+	 .contact_number, .contact_social_media, .contact_location {
+		margin-bottom: 20px;
+		text-align: left;
+	}
+	.contact_number .contact_text, .contact_social_media .contact_social_media_text, .contact_location .contact_location_text {
+		font-size: 20px;
+	}
+
+	/* About us start */
+	.aboutus_right {
+		background-color: #000000a1;
+		padding: 30px;
+	}
+	.aboutus_right_title {
+		color: #ffffff;
+	}
+	.aboutus_right_subtitle, .aboutus_right_para {
+		color: #dfd9d9;
+	}
+	
+	/* Special Features start */
+	.feature_title {
+		margin: 20px 0;
+		min-height: 65px;
+	}
+
+	/* Call to action start */
+	.calltoaction{
+		padding: 80px 0;
+	}
+	.calltoaction_title {
+		margin-bottom: 20px;
+		font-size: 26px;
+	}
+	.contactBtn {
+		padding: 8px 24px;
+	}
+	.calltoaction_left {
+		margin-top: 0;
+		text-align: center;
+	}
+
+	/* Testimonial start */
+	.carousel-caption {
+		padding: 40px 20px;
+	}
+	.carousel-caption img {
+		margin-top: 1.05rem;
+	}
+	#image-caption {
+		margin-bottom: 0.5rem;
+	}
+	.carousel-indicators [data-bs-target] {
+		width: 12px;
+		height: 12px;
+	}
+
+	/* Contact us start */
+	.contactUsBtn_submit{
+		padding: 15px 30px;
+	}
+
+	/* Footer Top start */
+	.top_footer_title {
+		margin-bottom: 20px;
+		font-size: 28px;
+	}
+	.top_footer_para {
+		margin-bottom: 20px;
+	}
+	.explore_left ul, .explore_right ul {
+		margin: 0;
+		padding-right: 18px;
+	}
+
+}
+
+/*Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) {
+	/**/
+}
+
+/*Extra Large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) and (max-width: 1399.98px) {
+	/**/
+}
+
+/*Extra Extra large devices (extra large desktops, 1400px and up)*/
+@media (min-width: 1400px) {
+	/**/
+}

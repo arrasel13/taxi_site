@@ -1,0 +1,545 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- BSicons -->
+    <link rel="stylesheet" href="assets/css/bsicons/bootstrap-icons.css">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/media.css">
+
+    <title>TaxiBhai</title>
+</head>
+<body>
+    
+    <!-- Header start -->
+    <header id="home">
+        <div class="container">
+            <!-- As a link -->
+            <nav class="navbar navbar-expand-lg cust_nav">
+                <div class="container-fluid">
+                <a class="navbar-brand logo" href="index.html">
+                    <img class="img-fluid" src="assets/images/logo/logo.png" alt="TaxiBhai">
+                    <span>taxibhai</span>
+                </a>
+                <button class="navbar-toggler cust_toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNavbar" aria-controls="mainNavbar" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse menu" id="mainNavbar">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#home">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#about">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#feature">Features</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#service">Services</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#testimonial">Testimonial</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contactus">Contact</a>
+                        </li>
+                    </ul>
+                    
+                </div>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <!-- Header end -->
+
+    <!-- Banner start -->
+    <section class="banner">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="banner_wrapper">
+                        <div class="row">
+                            <div class="col-lg-6 col-12">
+                                <div class="banner_left_content">
+
+                                    <h1 class="banner_left_text">get texi <span>online</span></h1>
+
+                                    <form class="row g-4">
+
+                                        <div class="col-12">
+                                            <div class="form-check selectPackage">
+                                                <input type="radio" name="emotion" id="standerd" class="input-hidden" checked />
+                                                <label for="standerd">
+                                                    <!-- <img src="assets/images/banner/car_icon.svg" alt="TaxiBhai" /> -->
+                                                    <i class="bi bi-dice-1"></i>
+                                                    <p>standerd</p>
+                                                </label>
+
+                                                <input type="radio" name="emotion"id="business" class="input-hidden" />
+                                                <label for="business">
+                                                    <!-- <img src="assets/images/banner/car_icon.svg" alt="TaxiBhai" /> -->
+                                                    <i class="bi bi-dice-2"></i>
+                                                    <p>business</p>
+                                                </label>
+
+                                                <input type="radio" name="emotion"id="vip" class="input-hidden" />
+                                                <label for="vip">
+                                                    <!-- <img src="assets/images/banner/car_icon.svg" alt="TaxiBhai" /> -->
+                                                    <i class="bi bi-dice-3"></i>
+                                                    <p>vip</p>
+                                                </label>
+
+                                                <input type="radio" name="emotion"id="bus_minivan" class="input-hidden" />
+                                                <label for="bus_minivan">
+                                                    <!-- <img src="assets/images/banner/car_icon.svg" alt="TaxiBhai" /> -->
+                                                    <i class="bi bi-dice-4"></i>
+                                                    <p>bus_minivan</p>
+                                                </label>
+                                            </div>
+                                        </div>
+
+                                        <div class="col-md-6">
+                                            <label class="visually-hidden" for="pickAddress">PickPoint</label>
+                                            <div class="input-group">
+                                                <input type="text" class="form-control" id="pickAddress" placeholder="From Address...">
+                                                <div class="input-group-text">
+                                                    <!-- <i class="bi bi-pin-map"></i> -->
+                                                    <i class="bi bi-geo-alt"></i>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <label class="visually-hidden" for="destAddress">Destination Address</label>
+                                            <div class="input-group">
+                                                <input type="text" class="form-control" id="destAddress" placeholder="To...">
+                                                <div class="input-group-text">
+                                                    <!-- <i class="bi bi-pin-map"></i> -->
+                                                    <i class="bi bi-geo-alt"></i>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <label class="visually-hidden" for="phoneNumber">Phone Number</label>
+                                            <div class="input-group">
+                                                <input type="text" class="form-control" id="phoneNumber" placeholder="Phone Number">
+                                                <div class="input-group-text">
+                                                    <i class="bi bi-telephone"></i>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <label class="visually-hidden" for="dateAndTime">Date and Time</label>
+                                            <div class="input-group">
+                                                <input type="text" class="form-control" id="dateAndTime" placeholder="Date and Time">
+                                                <div class="input-group-text"><i class="bi bi-calendar3"></i></div>
+                                            </div>
+                                        </div>
+
+                                        <div class="col-12">
+                                            <div class="btnGetTaxi">
+                                                <!-- <button type="submit" class="btn btn-primary">Sign in</button> -->
+                                                <a href="#" class="btn getTaxiBtn">get taxi</a>
+                                            </div>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                            <div class="col-lg-6 d-lg-block d-none">
+                                <div class="banner_right_content">
+                                    <img class="img-fluid" src="assets/images/banner/banner_img.png" alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Banner end -->
+
+    <!-- QuickInfo start -->
+    <section class="quickinfo" id="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="quickinfo_wraper">
+                        <div class="row">
+                            <div class="col-lg-3 col-md-6 col-sm-6 col-12">
+                                <ul class="list-inline contact_number">
+                                    <li class="list-inline-item contact_icon"><i class="bi bi-telephone-fill"></i></li>
+                                    <li class="list-inline-item contact_text">800-5-800</li>
+                                </ul>
+                            </div>
+                            <div class="col-lg-3 col-md-6 col-sm-6 col-12">
+                                <ul class="list-inline contact_social_media">
+                                    <li class="list-inline-item contact_social_media_icon"><i class="bi bi-skype"></i></li>
+                                    <li class="list-inline-item contact_social_media_text">ar.rasel40382</li>
+                                </ul>
+                            </div>
+                            <div class="col-lg-4 col-md-6 col-sm-12 col-12">
+                                <ul class="list-inline contact_location">
+                                    <li class="list-inline-item contact_location_icon">
+                                        <!-- <i class="bi bi-pin-map-fill"></i> -->
+                                        <i class="bi bi-geo-alt-fill"></i>
+                                    </li>
+                                    <li class="list-inline-item contact_location_text">Shyamoli, Dhaka - 1207</li>
+                                </ul>
+                            </div>
+                            <div class="col-lg-2 col-md-6 d-md-block d-none">
+                                <div class="package_pricing">
+                                    <a href="#" class="package_pricing_btn">Our Tariffs</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- QuickInfo end -->
+
+    <!-- About us start -->
+    <section class="aboutus">
+        <div class="container">
+            <div class="row">
+                <!-- <div class="col-lg-2">
+                    <div class="aboutus_left">
+                        <img class="img-fluid" src="assets/images/about/aboutus.png" alt="TaxiBhai">
+                    </div>
+                </div> -->
+                <div class="col-lg-7 offset-lg-5">
+                    <div class="aboutus_right">
+                        <h1 class="aboutus_right_title">Welcome to “TaxiBhai”</h1>
+
+                        <h2 class="aboutus_right_subtitle">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum quo nisi ipsam consectetur!</h2>
+                        <p class="aboutus_right_para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi dolorum dignissimos perferendis autem amet temporibus corporis dolores est error mollitia iusto tempora saepe, numquam eveniet cum quibusdam a consectetur praesentium culpa repellendus cupiditate vitae possimus odit quidem! Tenetur facere officiis, magni, saepe harum, quod doloribus amet eius vel expedita recusandae!</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- About us end -->
+
+    <!-- Special Features start -->
+    <section class="special_features" id="feature">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <h1 class="feature_sec_title"> Special Features</h1>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-4 col-md-4 col-sm-6">
+                    <div class="feature">
+                        <div class="feature_icon">
+                            <i class="bi bi-emoji-smile"></i>
+                        </div>
+                        <h2 class="feature_title">Reliable and Friendly Service</h2>
+                        <p class="feature_para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt sapiente autem pariatur modi commodi vero ut dolore sequi quos, aspernatur</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-6">
+                    <div class="feature">
+                        <div class="feature_icon">
+                            <i class="bi bi-boxes"></i>
+                        </div>
+                        <h2 class="feature_title">Long Run Hire for your business</h2>
+                        <p class="feature_para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt sapiente autem pariatur modi commodi vero ut dolore sequi quos, aspernatur</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-6">
+                    <div class="feature">
+                        <div class="feature_icon">
+                            <i class="bi bi-cash-coin"></i>
+                        </div>
+                        <h2 class="feature_title">Good Discount May be Available</h2>
+                        <p class="feature_para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt sapiente autem pariatur modi commodi vero ut dolore sequi quos, aspernatur</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Special Features end -->
+
+    <!-- Call to Action start -->
+    <section class="calltoaction">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-12">
+                    <div class="calltoaction_left">
+                        <h1 class="calltoaction_title">
+                            For any type of question, feel free to reach us
+                        </h1>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-12">
+                    <div class="calltoaction_right">
+                        <a href="#contactus" class="btn contactBtn">Contact Us</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Call to Action end -->
+
+    <!-- Service start -->
+    <section class="services" id="service">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <h1 class="service_sec_title"> Our Services</h1>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-3 col-md-6 col-sm-6">
+                    <div class="service">
+                        <div class="service_icon">
+                            <img class="img-fluid" src="assets/images/services/services-1.png" alt="TaxiBhai">
+                        </div>
+                        <h2 class="service_title">Airport Transfer and Car Hire</h2>
+                        <p class="service_para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt sapiente autem pariatur modi commodi vero ut dolore sequi quos, aspernatur</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-6">
+                    <div class="service">
+                        <div class="service_icon">
+                            <img class="img-fluid" src="assets/images/services/services-2.png" alt="TaxiBhai">
+                        </div>
+                        <h2 class="service_title">Guided Tours and Transport</h2>
+                        <p class="service_para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt sapiente autem pariatur modi commodi vero ut dolore sequi quos, aspernatur</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-6">
+                    <div class="service">
+                        <div class="service_icon">
+                            <img class="img-fluid" src="assets/images/services/services-3.png" alt="TaxiBhai">
+                        </div>
+                        <h2 class="service_title">Door-To-Door Service to All Hotel</h2>
+                        <p class="service_para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt sapiente autem pariatur modi commodi vero ut dolore sequi quos, aspernatur</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-6">
+                    <div class="service">
+                        <div class="service_icon">
+                            <img class="img-fluid" src="assets/images/services/services-4.png" alt="TaxiBhai">
+                        </div>
+                        <h2 class="service_title">B&B Around Fort William</h2>
+                        <p class="service_para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt sapiente autem pariatur modi commodi vero ut dolore sequi quos, aspernatur</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Service end -->
+
+    <!-- Testimonial Section start -->
+    <section class="testimonial" id="testimonial">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <h1 class="testi_sec_title"> Testimonials</h1>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-12">
+                    <div id="testimonialSliderIndicators" class="carousel slide testimonialSlider" data-bs-ride="carousel">
+                        <!-- Carousel Indicators -->
+                        <div class="carousel-indicators">
+                          <button type="button" data-bs-target="#testimonialSliderIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                          <button type="button" data-bs-target="#testimonialSliderIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                          <button type="button" data-bs-target="#testimonialSliderIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                        </div>
+
+                        <!-- Carousel Inner -->
+                        <div class="carousel-inner">
+
+                            <!-- Carousel item start -->
+                            <div class="carousel-item active" data-bs-interval="10000">
+                                <div class="carousel-caption">
+                                    <p>
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia alias ea cumque, doloremque corrupti assumenda sint maxime dolorum ipsum. Recusandae illo odio ad reprehenderit vero, ipsam ullam porro voluptatibus similique?
+                                    </p>
+                                    <img src="assets/images/testimonial/client1.png">
+                                    <div id="image-caption">Nick Doe</div>
+                                </div>
+                            </div>
+                            <!-- Carousel item end -->
+
+                            <!-- Carousel item start -->
+                            <div class="carousel-item" data-bs-interval="15000">
+                                <div class="carousel-caption">
+                                    <p>
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia alias ea cumque, doloremque corrupti assumenda sint maxime dolorum ipsum. Recusandae illo odio ad reprehenderit vero, ipsam ullam porro voluptatibus similique?
+                                    </p>
+                                    <img src="assets/images/testimonial/client1.png">
+                                    <div id="image-caption">Nick Doe</div>
+                                </div>
+                            </div>
+                            <!-- Carousel item end -->
+
+                            <!-- Carousel item start -->
+                            <div class="carousel-item" data-bs-interval="20000">
+                                <div class="carousel-caption">
+                                    <p>
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia alias ea cumque, doloremque corrupti assumenda sint maxime dolorum ipsum. Recusandae illo odio ad reprehenderit vero, ipsam ullam porro voluptatibus similique?
+                                    </p>
+                                    <img src="assets/images/testimonial/client1.png">
+                                    <div id="image-caption">Nick Doe</div>
+                                </div>
+                            </div>
+                            <!-- Carousel item end -->
+                          
+                        </div>
+                      </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Testimonial Section end -->
+
+    <section class="contactus" id="contactus">
+        <div class="container">
+            <div class="row">
+
+                <div class="col-lg-6 d-lg-block d-none">
+                    <div class="contactus_map">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14605.207691368227!2d90.3549646192501!3d23.772260640463283!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755c0a880f7909d%3A0xe8d7d2484b62becc!2sShyamoli%2C%20Dhaka!5e0!3m2!1sen!2sbd!4v1654867682343!5m2!1sen!2sbd" width="100%" height="530" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                </div>
+
+                <div class="col-lg-6">
+                    <div class="contactus_form">
+                        <h1 class="contactus_sec_title">Contact Us</h1>
+                        <form class="row g-3">
+                            <div class="col-md-6">
+                                <input type="text" class="name form-control" id="name" placeholder="Enter Your Name...">
+                            </div>
+                            <div class="col-md-6">
+                                <input type="email" class="email form-control" id="email" placeholder="Enter Email...">
+                            </div>
+                            <div class="col-6">
+                                <input type="text" class="phone form-control" id="phone" placeholder="Phone Number...">
+                            </div>
+                            <div class="col-6">
+                                <select id="gender" class="gender form-select">
+                                    <option selected>Select Gender...</option>
+                                    <option value="male">Male</option>
+                                    <option value="female">Female</option>
+                                </select>
+                            </div>
+                            <div class="col-md-12">
+                                <input type="text" class="subject form-control" id="subject" placeholder="Subject...">
+                            </div>
+                            <div class="col-12">
+                                <textarea class="message form-control" id="message" rows="3" placeholder="Enter your message..."></textarea>
+                            </div>
+                            <div class="col-12">
+                                <div class="contactusBtn">
+                                    <button type="submit" class="btn contactUsBtn_submit">Send Message <i class="bi bi-send"></i></button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer Top start -->
+    <section class="top_footer_section">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4">
+                    <div class="top_footer">
+                        <h2 class="top_footer_title">About Us</h2>
+                        <p class="top_footer_para">Nullam orci dui, dictum et magna sollicitudin, tempor blandit erat. Maecenas suscipit tellus sit amet augue placerat fringilla a id lacus. Fusce tincidunt in leo lacinia condimentum.</p>
+                        <div class="top_footer_social_icon">
+                            <ul class="list-inline">
+                                <li class="list-inline-item"><a href="#"><i class="bi bi-facebook"></i></a></li>
+                                <li class="list-inline-item"><a href="#"><i class="bi bi-twitter"></i></a></li>
+                                <li class="list-inline-item"><a href="#"><i class="bi bi-linkedin"></i></a></li>
+                                <li class="list-inline-item"><a href="#"><i class="bi bi-pinterest"></i></a></li>
+                                <li class="list-inline-item"><a href="#"><i class="bi bi-instagram"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-7">
+                    <div class="top_footer">
+                        <h2 class="top_footer_title">Explore</h2>
+
+                        <div class="explore_menu">
+                            <div class="explore_left">
+                                <ul class="list-inline">
+                                    <li><a href="#"><i class="bi bi-chevron-right"></i> Get Taxi</a></li>
+                                    <li><a href="#"><i class="bi bi-chevron-right"></i> Services</a></li>
+                                    <li><a href="#"><i class="bi bi-chevron-right"></i> Tariffs</a></li>
+                                    <li><a href="#"><i class="bi bi-chevron-right"></i> Application</a></li>
+                                </ul>
+                            </div>
+                            <div class="explore_right">
+                                <ul class="list-inline">
+                                    <li><a href="#"><i class="bi bi-chevron-right"></i> Become a Driver</a></li>
+                                    <li><a href="#"><i class="bi bi-chevron-right"></i> Testimonials</a></li>
+                                    <li><a href="#"><i class="bi bi-chevron-right"></i> Contacts</a></li>
+                                    <li><a href="#"><i class="bi bi-chevron-right"></i> Pages</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-5">
+                    <div class="top_footer">
+                        <h2 class="top_footer_title">Contact Us</h2>
+                        <div class="contact_address">
+                            <ul class="list-inline">
+                                <li><i class="bi bi-geo-alt"></i> Shyamoli, Dhaka - 1207</li>
+                                <li><i class="bi bi-telephone-fill"></i> 800-5-800</li>
+                                <li><i class="bi bi-envelope-fill"></i> <a href="#">arrasel403@gmail.com</a></li>
+                                <li><i class="bi bi-skype"></i> ar.rasel40382</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Footer Top end -->
+
+    <!-- Footer start -->
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-md-8">
+                    <div class="footer_left">
+                        <p>&copy; All Rights Reserved, 2022. Designed by <a href="#">AR Rasel</a></p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4">
+                    <div class="footer_right">
+                        <a href="#home" class="go-top hidden-xs hidden-ms"></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- Footer end -->
+
+
+    <!-- JS -->
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/popper.min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/script.js"></script>
+
+</body>
+</html>
